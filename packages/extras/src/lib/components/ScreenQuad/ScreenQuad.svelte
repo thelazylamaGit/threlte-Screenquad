@@ -1,6 +1,6 @@
 <script lang="ts">
   import { T } from '@threlte/core'
-  import { BufferGeometry, BufferAttribute, Sphere, Vector3 } from 'three/webgpu'
+  import { BufferGeometry, BufferAttribute, Sphere, Vector3 } from 'three'
 
   const fullscreenTriGeometry = (() => {
     const geometry = new BufferGeometry()
